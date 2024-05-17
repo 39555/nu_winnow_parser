@@ -1,0 +1,13 @@
+[package]
+name = "nu_winnow_parser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nu-cmd-lang = "0.93.0"
+nu-engine = "0.93.0"
+nu-path = "0.93.0"
+nu-protocol = "0.93.0"
+winnow = { version = "0.6.8", features = ["debug", "unstable-recover", "unstable-doc"] }
